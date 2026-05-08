@@ -7,7 +7,7 @@ pipeline {
             steps {
                 echo 'Stage 1: Build'
                 echo 'Task: Compiling and packaging the application source code.'
-                echo 'Tool: Maven - used to compile Java source files and package them into a JAR/WAR artifact.'
+                echo 'Tool: Maven - used to compile Java source filed package them into a JAR/WAR artifact.'
             }
         }
 
