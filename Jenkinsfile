@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     stages {
-
         stage('Build') {
             steps {
                 echo 'Stage 1: Build'
@@ -47,7 +46,7 @@ pipeline {
             steps {
                 echo 'Stage 6: Integration Tests on Staging'
                 echo 'Task: Running integration tests against the staging environment to validate production-like behaviour.'
-                echo 'Tool: Selenium WebDriver - automates browser-based end-to-end tests against the staged application.'
+                echo 'Tool: Selnium WebDriver - automates browser-based end-to-end tests against the staged application.'
             }
         }
 
